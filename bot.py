@@ -4,7 +4,7 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
 
 # Используем переменные окружения для безопасности
-TOKEN = os.getenv("BOT_TOKEN", "7819916914:AAHuOv_6eph7IZ2OYyqq-zKz22yr_G4MIPk")
+TOKEN = os.getenv("BOT_TOKEN", "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")
 ADMIN_ID = int(os.getenv("ADMIN_ID", "445570258"))
 
 bot = Bot(token=TOKEN)
